@@ -7,6 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1cBgtAgSyB68AV5UU8AIqUmpVQhcjRXio
 """
 
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+%matplotlib inline
 x = np.arange(0, 10)
 y = x * x
 plt.title("Square Graph", color="r")
