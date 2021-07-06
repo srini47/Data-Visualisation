@@ -7,6 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1dL-DmKnSwrCvKg2H-z_9ntM0OehumXBj
 """
 
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+%matplotlib inline
 day = [1,2,3,4,5,6,7]
 sales1 = [160,150,140,145,175,165,180]
 sales2 = [70,90,160,150,140,145,175]
